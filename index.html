@@ -1064,7 +1064,7 @@ async function createRoom() {
     id: generateId(12),
     name: name,
     color: createSelectedColor,
-    localIndex: 0,
+    local_index: 0,
     phone_id: state.phoneId,
     room_id: roomId,
     is_host: true
@@ -1081,7 +1081,7 @@ async function createRoom() {
         id: generateId(12),
         name: pName || `Player ${i+1}`,
         color: pColor,
-        localIndex: i,
+        local_index: i,
         phone_id: state.phoneId,
         room_id: roomId,
         is_host: false
